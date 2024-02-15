@@ -9,10 +9,21 @@ import SwiftUI
 
 struct MainGridView: View {
     
-    private let colums: [GridItem] = [GridItem(.flexible())]
+    private let colums: [GridItem] = [ GridItem(.flexible()),
+                                       GridItem(.flexible()),
+                                       GridItem(.flexible()) ]
     
     var body: some View {
-        FrameworkView(imageName: "app-clip", title: "App Clips")
+        NavigationStack {
+            ScrollView {
+                LazyVGrid(columns: colums) {
+                    ForEach(MockData.frameworks) { framework in
+                        FrameworkView(framework: framework)
+                    }
+                }
+            }
+            .navigationTitle("🍎 Frameworks")
+        }
     }
 }
 

@@ -13,6 +13,7 @@
 		BA42FE572B7D4D00000A3046 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42FE562B7D4D00000A3046 /* Framework.swift */; };
 		BA42FE592B7D4EEA000A3046 /* MainGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42FE582B7D4EEA000A3046 /* MainGridView.swift */; };
 		BA65CFCF2B7E4B7B00A66285 /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */; };
+		BA65CFD22B7E786600A66285 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65CFD12B7E786600A66285 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BA42FE562B7D4D00000A3046 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		BA42FE582B7D4EEA000A3046 /* MainGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGridView.swift; sourceTree = "<group>"; };
 		BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
+		BA65CFD12B7E786600A66285 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				BA42FE522B7D4B28000A3046 /* App */,
 				BA42FE512B7D4B1E000A3046 /* MainPage */,
+				BA65CFD02B7E783000A66285 /* FrameworkDetailView */,
 				BA42FE532B7D4B31000A3046 /* Resources */,
 				BA42FE492B7D4AE4000A3046 /* Preview Content */,
 			);
@@ -119,6 +122,14 @@
 				BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */,
 			);
 			path = ReusableComponents;
+			sourceTree = "<group>";
+		};
+		BA65CFD02B7E783000A66285 /* FrameworkDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BA65CFD12B7E786600A66285 /* DetailView.swift */,
+			);
+			path = FrameworkDetailView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 				BA42FE572B7D4D00000A3046 /* Framework.swift in Sources */,
 				BA42FE442B7D4AE0000A3046 /* AppleFrameworksApp.swift in Sources */,
 				BA42FE592B7D4EEA000A3046 /* MainGridView.swift in Sources */,
+				BA65CFD22B7E786600A66285 /* DetailView.swift in Sources */,
 				BA65CFCF2B7E4B7B00A66285 /* FrameworkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
