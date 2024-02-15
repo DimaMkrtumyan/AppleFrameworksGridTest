@@ -12,6 +12,7 @@
 		BA42FE4B2B7D4AE4000A3046 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA42FE4A2B7D4AE4000A3046 /* Preview Assets.xcassets */; };
 		BA42FE572B7D4D00000A3046 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42FE562B7D4D00000A3046 /* Framework.swift */; };
 		BA42FE592B7D4EEA000A3046 /* MainGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42FE582B7D4EEA000A3046 /* MainGridView.swift */; };
+		BA65CFCF2B7E4B7B00A66285 /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BA42FE4A2B7D4AE4000A3046 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA42FE562B7D4D00000A3046 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		BA42FE582B7D4EEA000A3046 /* MainGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGridView.swift; sourceTree = "<group>"; };
+		BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		BA42FE372B7D4AE0000A3046 = {
 			isa = PBXGroup;
 			children = (
+				BA65CFCD2B7E4B5F00A66285 /* ReusableComponents */,
 				BA42FE422B7D4AE0000A3046 /* AppleFrameworks */,
 				BA42FE412B7D4AE0000A3046 /* Products */,
 			);
@@ -108,6 +111,14 @@
 				BA42FE582B7D4EEA000A3046 /* MainGridView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BA65CFCD2B7E4B5F00A66285 /* ReusableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */,
+			);
+			path = ReusableComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				BA42FE572B7D4D00000A3046 /* Framework.swift in Sources */,
 				BA42FE442B7D4AE0000A3046 /* AppleFrameworksApp.swift in Sources */,
 				BA42FE592B7D4EEA000A3046 /* MainGridView.swift in Sources */,
+				BA65CFCF2B7E4B7B00A66285 /* FrameworkView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

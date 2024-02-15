@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct MainGridView: View {
+    
+    private let colums: [GridItem] = [GridItem(.flexible())]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        FrameworkView(imageName: "app-clip", title: "App Clips")
     }
 }
 
