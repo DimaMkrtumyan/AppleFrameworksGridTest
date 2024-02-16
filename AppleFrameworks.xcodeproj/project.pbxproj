@@ -14,6 +14,10 @@
 		BA42FE592B7D4EEA000A3046 /* MainGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA42FE582B7D4EEA000A3046 /* MainGridView.swift */; };
 		BA65CFCF2B7E4B7B00A66285 /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */; };
 		BA65CFD22B7E786600A66285 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65CFD12B7E786600A66285 /* DetailView.swift */; };
+		BA65CFD52B7E8CFA00A66285 /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65CFD42B7E8CFA00A66285 /* FrameworkGridViewModel.swift */; };
+		BA87E0552B7F64F200745959 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87E0542B7F64F200745959 /* SafariView.swift */; };
+		BA87E0572B7F6D0D00745959 /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87E0562B7F6D0D00745959 /* ReusableButton.swift */; };
+		BA87E0592B7F6E2F00745959 /* ReusableCloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA87E0582B7F6E2F00745959 /* ReusableCloseButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		BA42FE582B7D4EEA000A3046 /* MainGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGridView.swift; sourceTree = "<group>"; };
 		BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 		BA65CFD12B7E786600A66285 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BA65CFD42B7E8CFA00A66285 /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		BA87E0542B7F64F200745959 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		BA87E0562B7F6D0D00745959 /* ReusableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
+		BA87E0582B7F6E2F00745959 /* ReusableCloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCloseButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +49,6 @@
 		BA42FE372B7D4AE0000A3046 = {
 			isa = PBXGroup;
 			children = (
-				BA65CFCD2B7E4B5F00A66285 /* ReusableComponents */,
 				BA42FE422B7D4AE0000A3046 /* AppleFrameworks */,
 				BA42FE412B7D4AE0000A3046 /* Products */,
 			);
@@ -59,8 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				BA42FE522B7D4B28000A3046 /* App */,
-				BA42FE512B7D4B1E000A3046 /* MainPage */,
-				BA65CFD02B7E783000A66285 /* FrameworkDetailView */,
+				BA87E05A2B7F931C00745959 /* ScreenModules */,
+				BA87E0532B7F64DE00745959 /* UIKitComponents */,
+				BA65CFCD2B7E4B5F00A66285 /* ReusableComponents */,
 				BA42FE532B7D4B31000A3046 /* Resources */,
 				BA42FE492B7D4AE4000A3046 /* Preview Content */,
 			);
@@ -78,6 +86,7 @@
 		BA42FE512B7D4B1E000A3046 /* MainPage */ = {
 			isa = PBXGroup;
 			children = (
+				BA65CFD32B7E8CE300A66285 /* ViewModel */,
 				BA42FE542B7D4CE8000A3046 /* Model */,
 				BA42FE552B7D4CED000A3046 /* View */,
 			);
@@ -120,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				BA65CFCE2B7E4B7B00A66285 /* FrameworkView.swift */,
+				BA87E0562B7F6D0D00745959 /* ReusableButton.swift */,
+				BA87E0582B7F6E2F00745959 /* ReusableCloseButton.swift */,
 			);
 			path = ReusableComponents;
 			sourceTree = "<group>";
@@ -130,6 +141,31 @@
 				BA65CFD12B7E786600A66285 /* DetailView.swift */,
 			);
 			path = FrameworkDetailView;
+			sourceTree = "<group>";
+		};
+		BA65CFD32B7E8CE300A66285 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA65CFD42B7E8CFA00A66285 /* FrameworkGridViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA87E0532B7F64DE00745959 /* UIKitComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BA87E0542B7F64F200745959 /* SafariView.swift */,
+			);
+			path = UIKitComponents;
+			sourceTree = "<group>";
+		};
+		BA87E05A2B7F931C00745959 /* ScreenModules */ = {
+			isa = PBXGroup;
+			children = (
+				BA65CFD02B7E783000A66285 /* FrameworkDetailView */,
+				BA42FE512B7D4B1E000A3046 /* MainPage */,
+			);
+			path = ScreenModules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +243,10 @@
 				BA42FE592B7D4EEA000A3046 /* MainGridView.swift in Sources */,
 				BA65CFD22B7E786600A66285 /* DetailView.swift in Sources */,
 				BA65CFCF2B7E4B7B00A66285 /* FrameworkView.swift in Sources */,
+				BA65CFD52B7E8CFA00A66285 /* FrameworkGridViewModel.swift in Sources */,
+				BA87E0572B7F6D0D00745959 /* ReusableButton.swift in Sources */,
+				BA87E0552B7F64F200745959 /* SafariView.swift in Sources */,
+				BA87E0592B7F6E2F00745959 /* ReusableCloseButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
