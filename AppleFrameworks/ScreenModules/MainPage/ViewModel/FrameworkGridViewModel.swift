@@ -16,6 +16,6 @@ final class FrameworkGridViewModel: ObservableObject {
     }
     @Published var isFrameworkSelected = false
     let colums: [GridItem] = [ GridItem(.flexible()),
-                                       GridItem(.flexible()),
-                                       GridItem(.flexible()) ]
+                               GridItem(.flexible()),
+                               GridItem(.flexible()) ]
 }

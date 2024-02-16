@@ -22,10 +22,13 @@ struct ReusableButton: View {
                 .fontWeight(.semibold)
                 .foregroundStyle(.white)
                 .frame(width: 280, height: 50)
-                .background(
-                    RoundedRectangle(cornerRadius: 10)
-                        .foregroundStyle(.red)
-                )
         }
+        .buttonStyle(.bordered)
+        .buttonBorderShape(.roundedRectangle(radius: 10))
+        .tint(.green)
     }
+}
+
+#Preview {
+    ReusableButton(isShowing: .constant(false), title: "Learn More")
 }

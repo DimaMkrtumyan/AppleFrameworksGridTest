@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ReusableCloseButton: View {
     
-    @Binding var isSelected: Bool
+//    @Binding var isSelected: Bool
     
     var body: some View {
         HStack {
@@ -18,7 +18,7 @@ struct ReusableCloseButton: View {
             
             Button {
                 print("Close button tapped")
-                isSelected.toggle()
+//                isSelected.toggle()
             } label: {
                 Image(systemName: "xmark")
                     .foregroundStyle(.white)

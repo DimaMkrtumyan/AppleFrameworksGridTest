@@ -10,14 +10,10 @@ import SwiftUI
 struct DetailView: View {
     
     var framework: Framework
-    @Binding var isFrameworkSelected: Bool
     @State var isShowingSafariView = false
     
     var body: some View {
         VStack(alignment: .center) {
-            
-            ReusableCloseButton(isSelected: $isFrameworkSelected)
-            .padding()
             
             Spacer()
             
@@ -38,6 +34,5 @@ struct DetailView: View {
 }
 
 #Preview {
-    DetailView(framework: MockData.frameworks[0], 
-               isFrameworkSelected: .constant(false))
+    DetailView(framework: MockData.frameworks[0])
 }
